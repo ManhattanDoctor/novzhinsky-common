@@ -1,0 +1,17 @@
+{
+    "name": "@novzhinsky/common",
+    "version": "1.0.0",
+    "description": "Common classes for Novzhinsky Control",
+    "author": "Renat Gubaev",
+    "license": "ISC",
+    "scripts": {
+        "build": "tsc",
+        "format": "prettier --list-different \"{src}/**/*.{ts,js,json}\"",
+        "format:fix": "prettier --write \"{src}/**/*.{ts,js,json}\" --loglevel warn"
+    },
+    "dependencies": {
+        "moment": "^2.30.1",
+        "@ts-core/common": "~3.0.69",
+        "@ts-core/swagger": "~11.0.6"
+    }
+}
