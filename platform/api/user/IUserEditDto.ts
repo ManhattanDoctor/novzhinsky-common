@@ -1,7 +1,7 @@
 import { ITraceable } from '@ts-core/common';
 import { IUserPreferences, User } from '../../user';
 
-export interface IUserEditDto<P extends IUserPreferences> extends ITraceable {
-    preferences?: Partial<P>;
+export interface IUserEditDto extends ITraceable {
+    preferences?: Partial<IUserPreferences>;
 }
-export declare type IUserEditDtoResponse<P extends IUserPreferences> = User<P>;
+export declare type IUserEditDtoResponse = User;

@@ -1,8 +1,8 @@
 import { ITraceable } from '@ts-core/common';
-import { IUserPreferences, User } from '../../user';
+import { User } from '../../user';
 
 export interface IInitDto extends ITraceable { }
 
-export interface IInitDtoResponse<P extends IUserPreferences = IUserPreferences> {
-    user: User<P>;
+export interface IInitDtoResponse {
+    user: User;
 }

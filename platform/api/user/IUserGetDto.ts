@@ -1,3 +1,3 @@
-import { IUserPreferences, User } from '../../user';
+import { User } from '../../user';
 
-export declare type IUserGetDtoResponse<P extends IUserPreferences> = User<P>;
+export declare type IUserGetDtoResponse = User;

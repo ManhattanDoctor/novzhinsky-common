@@ -11,13 +11,13 @@ export class UserFactory {
     //
     // --------------------------------------------------------------------------
 
-    public static transformPreferences<T extends IUserPreferences>(item: TransformFnParams): T {
+    public static transformPreferences(item: TransformFnParams): IUserPreferences {
         let type = item.obj.type;
         let classType: ClassType<IUserPreferences> = null;
         switch (type) {
             default:
                 classType = UserPreferences;
         }
-        return TransformUtil.toClass(classType, item.value) as T;
+        return TransformUtil.toClass(classType, item.value);
     }
 }
