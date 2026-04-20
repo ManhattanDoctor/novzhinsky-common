@@ -20,6 +20,12 @@ export const VISIT_URL = PREFIX + 'visit';
 //
 export const RECONCILIATION_URL = PREFIX + 'reconciliation';
 //
+export const RECEIPT_MATCH_URL = PREFIX + 'receipt-match';
+//
+export const BARISTA_STATS_URL = PREFIX + 'barista/stats';
+//
+export const MENU_MARGIN_URL = PREFIX + 'menu/margin';
+//
 export const ALERT_URL = PREFIX + 'alert';
 export const DETECTOR_CONFIG_URL = PREFIX + 'detector/config';
 //

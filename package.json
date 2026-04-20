@@ -1,7 +1,7 @@
 {
     "name": "@novzhinsky/common",
     "version": "1.0.0",
-    "description": "Common classes for Novzhinsky Control",
+    "description": "Common classes for Novzhinsky",
     "author": "Renat Gubaev",
     "license": "ISC",
     "scripts": {
