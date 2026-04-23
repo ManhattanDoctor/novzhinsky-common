@@ -30,6 +30,7 @@ export interface IBankOperation {
     operationId: string;
     account: string;
     date: Date;
+    settlementDate: string;
     amount: string;
     currency: string;
     direction: BankOperationDirection;

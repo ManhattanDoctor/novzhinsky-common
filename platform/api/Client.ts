@@ -21,8 +21,10 @@ export const VISIT_URL = PREFIX + 'visit';
 export const RECONCILIATION_URL = PREFIX + 'reconciliation';
 //
 export const RECEIPT_MATCH_URL = PREFIX + 'receipt-match';
+export const RECEIPT_BANK_MATCH_URL = PREFIX + 'receipt-bank-match';
 //
 export const BARISTA_STATS_URL = PREFIX + 'barista/stats';
+export const BARISTA_URL = PREFIX + 'barista';
 //
 export const MENU_MARGIN_URL = PREFIX + 'menu/margin';
 //
