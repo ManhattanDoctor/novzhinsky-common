@@ -5,8 +5,6 @@ export const LOGIN_URL = PREFIX + 'login';
 export const LOGOUT_URL = PREFIX + 'logout';
 //
 export const USER_URL = PREFIX + 'user';
-export const FILE_URL = PREFIX + 'file';
-export const FILE_BUFFER_URL = PREFIX + 'fileBuffer';
 //
 export const DATASOURCE_URL = PREFIX + 'datasource';
 export const SYNC_LOG_URL = DATASOURCE_URL + '/sync-log';
